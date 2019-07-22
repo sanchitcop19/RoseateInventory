@@ -8,6 +8,9 @@ python get-pip.py
 which pip3
 which pip
 pip install virtualenv
+cd ~
+mkdir pricelist-retriever
+cd pricelist-retriever
 virtualenv -p python3 venv
 source venv/bin/activate
 which python
